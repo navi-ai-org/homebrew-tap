@@ -3,7 +3,7 @@
 class Navi < Formula
   desc "Coding agent engine with a terminal UI — read, write, test, and ship code"
   homepage "https://github.com/navi-ai-org/navi"
-  version "0.2.2"
+  version "0.3.0"
   license "Apache-2.0"
 
   # Distinct from homebrew/core's `navi` (denisidoro interactive cheatsheet).
@@ -12,22 +12,22 @@ class Navi < Formula
   on_macos do
     on_arm do
       url "https://github.com/navi-ai-org/navi/releases/download/v#{version}/navi-darwin-arm64.tar.gz"
-      sha256 "c2977a483bdb774f3e80f80f1c63ab3964894339600b33738f5ee6cdaf69c08c"
+      sha256 "7c170bd43caeedba8f56330bae6d86dffa7ddd1c6d86b1a74645010e74e0bb31"
     end
     on_intel do
       url "https://github.com/navi-ai-org/navi/releases/download/v#{version}/navi-darwin-x64.tar.gz"
-      sha256 "59cbb41ef502ed683a04ca597ab4c88be562af5a1767b5d23f366b7473c09153"
+      sha256 "b2ca113d7820ab05a760a77b3f4c434e55848c153dcd85b0572b4319375eaff8"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/navi-ai-org/navi/releases/download/v#{version}/navi-linux-arm64.tar.gz"
-      sha256 "6752d0d1d6940b925df19a2bf667ce544e7f94feed7545e470b30f32ef84cc8e"
+      sha256 "3fb6598894501e4ae44f170f3780abe71967e241971f099d5783f49ebd16e1d7"
     end
     on_intel do
       url "https://github.com/navi-ai-org/navi/releases/download/v#{version}/navi-linux-x64.tar.gz"
-      sha256 "4b7092655f3d3205736391ad8d57dff4034ff18a2d0e87387e1455c36d656515"
+      sha256 "cb0a1a12c3ff14a6f4d18713f53f4ab90ae0c9737b17f0cbd85359c8f1669a78"
     end
   end
 
